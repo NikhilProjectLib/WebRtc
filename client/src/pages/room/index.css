@@ -1,0 +1,47 @@
+
+.create-room{
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  
+    margin: 0 0.5rem;
+  }
+  
+  #myInputField{
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
+  
+  #button-meet{
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: #0092cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: -40px;
+    margin-top: 11px;
+  }
+  .field {
+    width: 40%;
+    height: 56px;
+    border-radius: 4px;
+    position: relative;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.3s all;
+  }
+
+  .field:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+

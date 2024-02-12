@@ -1,0 +1,35 @@
+ Real-time communication for Office employeees
+
+TECT - 1 .WebRtc -- used to enables real-time voice, text and video communications capabilities between web browsers and devices.
+       2.React js -- user for component routing at login & registration , navigation
+
+     3 express - provide platform from socket and rtc connection at serverside 
+    
+      4 socket.io -- used for sending rtc ice candidate info of users to other users in room 
+
+workking on - latency , singnal sharing , react components ;
+ 
+
+
+/// ---------------THEORY------------------
+->WebRtc is video Gateway - for advanced video real-time-communication through audio/video/data streams
+-> Generally Video GateWay has to be deployed over a public Internet so any user must connect and send media fragments over RTP (Real-time Transport Protocol) ports without specific network issues.
+
+
+
+===> Why you should require a STUN/TURN Server?
+
+---> However, sometimes this is not enough. Some users try to connect through different IP networks where Firewalls and NATs (Network Address Translators) could include specific policies that do not allow any kind of RTC communications.
+--> For solving this problems ICE comes in picture
+   ICE ==> ICE (Interactive Connectivity Establishment) protocol is used to find the best      connection solution. 
+  ICE  defines a systematic way of finding possible communication options between a peer and the Video Gateway (WebRTC).
+ 
+
+STUN/TURN ICE rheory 
+===>    https://blog.ivrpowers.com/post/technologies/what-is-stun-turn-server/
+
+
+==>NAT
+https://www.cisco.com/c/en/us/products/routers/network-address-translation.html#~q-a
+
+

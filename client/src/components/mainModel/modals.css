@@ -1,0 +1,83 @@
+.modal-content {
+  width: 271px;
+  top: 456px;
+  left: -340px;
+}
+
+.modal-body {
+  min-width: 373px;
+  background: #fff;
+  position: relative;
+  left: 2px;
+  top: 16px;
+  border-style: groove;
+  border-width: 2px;
+  border-radius: 9px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  /* margin-top: 0px; */
+  font-size: 17px;
+}
+.modal-header {
+  padding: 0px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 23px;
+  /* font-stretch: expanded; */
+  position: relative;
+  left: 46px;
+  top:7px
+}
+.modal-dialog {
+  position: absolute;
+  bottom: 77px;
+  left: 29px;
+  /* background: white; */
+
+  height: 150px;
+  width: 387px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: hsla(240, 7%, 97%, 1);
+  border-radius: 10px;
+}
+.ibutton {
+  position: absolute;
+  bottom: 27px;
+  left: 23px;
+}
+
+
+.text_field {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  position: relative;
+  right: 2px;
+  width: 267px;
+  top: 14px;
+}
+
+.modal_tittle{
+  margin-top: 0px;
+}
+
+.icon_style{
+  font-size: 25px;
+}
+
+.close-button{
+  position: relative;
+  top: -28px;
+  height: 20px;
+  width: 20px;
+  background: black;
+  left: 112%;
+}
+
+.cross_icon_style{
+  font-size: 24px;
+}
